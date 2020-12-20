@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>NETS 212 Homework 1 Milestone 2 - TED Search!</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1 align="center">NETS 212 Homework 1 Milestone 2</h1>
+<div align="center">
+  <h2 align="center">TED Search</h2>
+  <image src="https://derangedgifts.com/wp-content/uploads/2017/09/Vercart-11-Foot-133-Light-Brown-Giant-Gigantic-Large-Teddy-Bear-Stuffed-Plush-Animal-Toy-Gift-for-Kids-Friends-0.jpg"/>
+  </div>
+  <p>&nbsp;</p>
+  <form align="center" name="searchForm" action="/talks"  onsubmit="return validate(document.searchForm.keyword)">
+  <label for="keyword">Search for TED talks with the following words:</label><br/>
+ <input type="text" id="keyword" name="keyword" />
+  <input type="submit" value="Search">
+</form>
+<script>
+  function validate(term) {
+    var searchString = term.value;
+      //uses regex and string length to check for valid input
+    if( searchString.length > 1 && /^[a-z][a-z\s]*$/i.test(searchString)) {
+    	console.log("String Accepted.");  
+    	return true;
+    } else {
+    	console.log("String Rejected.");
+    	return false;
+    }
+  }
+  
+</script>
+</body>
+</html>

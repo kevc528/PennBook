@@ -1,0 +1,6 @@
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/hw1/IndexTedTalkInfo.java
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/storage/DynamoConnector.java
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/config/Config.java
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/hw1/LoadData.java
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/hw1/QueryForWord.java
+/home/nets212/git/HW1/src/main/java/edu/upenn/cis/nets212/hw1/files/TedTalkParser.java

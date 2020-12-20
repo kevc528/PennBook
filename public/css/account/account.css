@@ -1,0 +1,84 @@
+/*
+:root {
+    --background-color: rgb(223, 250, 253);
+}
+*/
+
+body {
+    background-color: var(--background-color);
+    background-image: url(/public/images/account/loginpaneltemp.png);
+    background-position: 100% 10.5%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.center-box {
+    width: 290px;
+    margin: auto;
+}
+
+.card {
+    width: 385px;
+}
+
+.card-header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.center-screen {
+    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    height: 95%;
+    display: flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.card-title{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.account-card {
+    height: 393px;
+    background-color: var(--background-color);
+    border: none;
+}
+
+.account-card-body {
+    padding-top: 35px;
+    background-color: var(--background-color);
+    border: none;
+}
+
+.tokenfield {
+    text-align: left;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+#register-card {
+    top: -7%;
+}
+
+#tellmore-card {
+    top: -9%;
+}
+
+#forgot-card {
+    top: -4%;
+}
+
+#logo-img {
+    position: absolute;
+    left: 3%;
+    bottom: 4%;
+}
+
+.alert-danger {
+    text-align: center;
+}
